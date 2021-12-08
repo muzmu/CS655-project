@@ -4,7 +4,7 @@ from multiprocessing import Process, Queue
 import time
 proxy={"http": "10.10.1.2:8080"}
 
-size = 10
+size = 100
 #url = 'http://ipv4.download.thinkbroadband.com/20MB.zip'
 url = 'http://ipv4.download.thinkbroadband.com/'+str(size)+'MB.zip'
 #url = 'http://speedtest.tele2.net/'
@@ -41,9 +41,13 @@ def download_without_cached_file(url,proxy,i):
 download_without_cache_first(url,proxy)
 
 for i in range(1,11):
-    _thread.start_new_thread(download_without_cached_file, (url,proxy,i))
+    #_thread.start_new_thread(download_with_cached_file, (url,proxy,i))
+    #p=Process(target=download_with_cached_file,args=(url,proxy,i))
+    #p.start()
+    time.sleep(1)
+    download_without_cached_file(url,proxy,i)
 
-print("Started all 10 threads") 
+#print("Started all 10 threads") 
 while True:
     try:
         pass
