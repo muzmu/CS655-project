@@ -1,0 +1,307 @@
+<rspec xmlns="http://www.geni.net/resources/rspec/3" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" xmlns:tour="http://www.protogeni.net/resources/rspec/ext/apt-tour/1" xmlns:jacks="http://www.protogeni.net/resources/rspec/ext/jacks/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.geni.net/resources/rspec/3    http://www.geni.net/resources/rspec/3/request.xsd" type="request">
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="Cache" component_manager_id="urn:publicid:IDN+instageni.maxgigapop.net+authority+cm" component_id="urn:publicid:IDN+instageni.maxgigapop.net+node+pc5" sliver_id="urn:publicid:IDN+instageni.maxgigapop.net+sliver+66591" exclusive="false">
+    <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://portal.geni.net/images/VM-noTxt-centered.svg"/>
+    <sliver_type name="default-vm"/>
+    <services>
+      <emulab:imageable available="true"/>
+      <login authentication="ssh-keys" hostname="pc5.instageni.maxgigapop.net" port="25610" username="muz"/>
+      <login authentication="ssh-keys" hostname="pc5.instageni.maxgigapop.net" port="25610" username="matta"/>
+      <login authentication="ssh-keys" hostname="pc5.instageni.maxgigapop.net" port="25610" username="zhangzs"/>
+      <login authentication="ssh-keys" hostname="pc5.instageni.maxgigapop.net" port="25610" username="fahadf"/>
+      <login authentication="ssh-keys" hostname="pc5.instageni.maxgigapop.net" port="25610" username="cyzhou"/>
+      <login authentication="ssh-keys" hostname="pc5.instageni.maxgigapop.net" port="25610" username="xiansong"/>
+      <emulab:console server="vhost5.shared-nodes.emulab-ops.instageni.maxgigapop.net"/>
+    </services>
+    <interface client_id="interface-1" component_id="urn:publicid:IDN+instageni.maxgigapop.net+interface+pc5:lo0" sliver_id="urn:publicid:IDN+instageni.maxgigapop.net+sliver+66596" mac_address="028af3e3308e">
+      <ip address="10.10.1.2" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <emulab:vnode name="pcvm5-13" hardware_type="pcvm"/>
+    <host name="Cache.mini-project-muz.ch-geni-net.instageni.maxgigapop.net"/>
+  </node>
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="node-1" component_manager_id="urn:publicid:IDN+instageni.maxgigapop.net+authority+cm" component_id="urn:publicid:IDN+instageni.maxgigapop.net+node+pc5" sliver_id="urn:publicid:IDN+instageni.maxgigapop.net+sliver+66592" exclusive="false">
+    <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://portal.geni.net/images/VM-noTxt-centered.svg"/>
+    <sliver_type name="default-vm"/>
+    <services>
+      <emulab:imageable available="true"/>
+      <login authentication="ssh-keys" hostname="pc5.instageni.maxgigapop.net" port="25611" username="muz"/>
+      <login authentication="ssh-keys" hostname="pc5.instageni.maxgigapop.net" port="25611" username="matta"/>
+      <login authentication="ssh-keys" hostname="pc5.instageni.maxgigapop.net" port="25611" username="zhangzs"/>
+      <login authentication="ssh-keys" hostname="pc5.instageni.maxgigapop.net" port="25611" username="fahadf"/>
+      <login authentication="ssh-keys" hostname="pc5.instageni.maxgigapop.net" port="25611" username="cyzhou"/>
+      <login authentication="ssh-keys" hostname="pc5.instageni.maxgigapop.net" port="25611" username="xiansong"/>
+      <emulab:console server="vhost5.shared-nodes.emulab-ops.instageni.maxgigapop.net"/>
+    </services>
+    <interface client_id="interface-0" component_id="urn:publicid:IDN+instageni.maxgigapop.net+interface+pc5:lo0" sliver_id="urn:publicid:IDN+instageni.maxgigapop.net+sliver+66595" mac_address="02472247955e">
+      <ip address="10.10.1.1" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <emulab:vnode name="pcvm5-14" hardware_type="pcvm"/>
+    <host name="node-1.mini-project-muz.ch-geni-net.instageni.maxgigapop.net"/>
+  </node>
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="node-0" component_manager_id="urn:publicid:IDN+instageni.rnet.missouri.edu+authority+cm" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+node+pc3" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64260" exclusive="false">
+    <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://portal.geni.net/images/VM-noTxt-centered.svg"/>
+    <sliver_type name="default-vm"/>
+    <services>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26610" username="xiansong"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26610" username="muz"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26610" username="zhangzs"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26610" username="matta"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26610" username="cyzhou"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26610" username="fahadf"/>
+      <emulab:console server="pc3.instageni.rnet.missouri.edu"/>
+      <emulab:imageable available="true"/>
+    </services>
+    <interface client_id="interface-1" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64273" mac_address="022a15ef6d9d">
+      <ip address="10.10.1.2" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <interface client_id="interface-3" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64276" mac_address="0290cf9db43a">
+      <ip address="10.10.2.2" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <interface client_id="interface-5" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64279" mac_address="02d8dc6a8681">
+      <ip address="10.10.3.2" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <interface client_id="interface-7" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64282" mac_address="0231a24cfaf7">
+      <ip address="10.10.4.2" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <interface client_id="interface-9" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64285" mac_address="02ffda91ecde">
+      <ip address="10.10.5.2" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <interface client_id="interface-11" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64288" mac_address="02d3b150b9aa">
+      <ip address="10.10.6.2" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <interface client_id="interface-13" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64291" mac_address="021eef06b92a">
+      <ip address="10.10.7.2" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <interface client_id="interface-15" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64294" mac_address="0202281d90f5">
+      <ip address="10.10.8.2" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <interface client_id="interface-17" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64297" mac_address="02119b1f256f">
+      <ip address="10.10.9.2" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <emulab:vnode name="pcvm3-5" hardware_type="pcvm" disk_image="emulab-ops/UBUNTU18-64-STD:0"/>
+    <host name="node-0.mini-project-muz.ch-geni-net.instageni.rnet.missouri.edu"/>
+  </node>
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="node-1" component_manager_id="urn:publicid:IDN+instageni.rnet.missouri.edu+authority+cm" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+node+pc3" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64261" exclusive="false">
+    <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://portal.geni.net/images/VM-noTxt-centered.svg"/>
+    <sliver_type name="default-vm"/>
+    <services>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26611" username="xiansong"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26611" username="muz"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26611" username="zhangzs"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26611" username="matta"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26611" username="cyzhou"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26611" username="fahadf"/>
+      <emulab:console server="pc3.instageni.rnet.missouri.edu"/>
+      <emulab:imageable available="true"/>
+    </services>
+    <interface client_id="interface-0" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64272" mac_address="023cefe72014">
+      <ip address="10.10.1.1" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <emulab:vnode name="pcvm3-8" hardware_type="pcvm" disk_image="emulab-ops/UBUNTU18-64-STD:0"/>
+    <host name="node-1.mini-project-muz.ch-geni-net.instageni.rnet.missouri.edu"/>
+  </node>
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="node-2" component_manager_id="urn:publicid:IDN+instageni.rnet.missouri.edu+authority+cm" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+node+pc3" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64262" exclusive="false">
+    <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://portal.geni.net/images/VM-noTxt-centered.svg"/>
+    <sliver_type name="default-vm"/>
+    <services>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26612" username="xiansong"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26612" username="muz"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26612" username="zhangzs"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26612" username="matta"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26612" username="cyzhou"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26612" username="fahadf"/>
+      <emulab:console server="pc3.instageni.rnet.missouri.edu"/>
+      <emulab:imageable available="true"/>
+    </services>
+    <interface client_id="interface-2" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64275" mac_address="026248c346ef">
+      <ip address="10.10.2.1" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <emulab:vnode name="pcvm3-11" hardware_type="pcvm" disk_image="emulab-ops/UBUNTU18-64-STD:0"/>
+    <host name="node-2.mini-project-muz.ch-geni-net.instageni.rnet.missouri.edu"/>
+  </node>
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="node-3" component_manager_id="urn:publicid:IDN+instageni.rnet.missouri.edu+authority+cm" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+node+pc3" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64263" exclusive="false">
+    <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://portal.geni.net/images/VM-noTxt-centered.svg"/>
+    <sliver_type name="default-vm"/>
+    <services>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26613" username="xiansong"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26613" username="muz"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26613" username="zhangzs"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26613" username="matta"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26613" username="cyzhou"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26613" username="fahadf"/>
+      <emulab:console server="pc3.instageni.rnet.missouri.edu"/>
+      <emulab:imageable available="true"/>
+    </services>
+    <interface client_id="interface-4" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64278" mac_address="021c7667f81c">
+      <ip address="10.10.3.1" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <emulab:vnode name="pcvm3-12" hardware_type="pcvm" disk_image="emulab-ops/UBUNTU18-64-STD:0"/>
+    <host name="node-3.mini-project-muz.ch-geni-net.instageni.rnet.missouri.edu"/>
+  </node>
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="node-4" component_manager_id="urn:publicid:IDN+instageni.rnet.missouri.edu+authority+cm" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+node+pc3" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64264" exclusive="false">
+    <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://portal.geni.net/images/VM-noTxt-centered.svg"/>
+    <sliver_type name="default-vm"/>
+    <services>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26614" username="xiansong"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26614" username="muz"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26614" username="zhangzs"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26614" username="matta"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26614" username="cyzhou"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26614" username="fahadf"/>
+      <emulab:console server="pc3.instageni.rnet.missouri.edu"/>
+      <emulab:imageable available="true"/>
+    </services>
+    <interface client_id="interface-14" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64293" mac_address="02eda4ac0d81">
+      <ip address="10.10.8.1" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <emulab:vnode name="pcvm3-13" hardware_type="pcvm" disk_image="emulab-ops/UBUNTU18-64-STD:0"/>
+    <host name="node-4.mini-project-muz.ch-geni-net.instageni.rnet.missouri.edu"/>
+  </node>
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="node-5" component_manager_id="urn:publicid:IDN+instageni.rnet.missouri.edu+authority+cm" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+node+pc3" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64265" exclusive="false">
+    <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://portal.geni.net/images/VM-noTxt-centered.svg"/>
+    <sliver_type name="default-vm"/>
+    <services>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26615" username="xiansong"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26615" username="muz"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26615" username="zhangzs"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26615" username="matta"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26615" username="cyzhou"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26615" username="fahadf"/>
+      <emulab:console server="pc3.instageni.rnet.missouri.edu"/>
+      <emulab:imageable available="true"/>
+    </services>
+    <interface client_id="interface-12" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64290" mac_address="02e843f18b45">
+      <ip address="10.10.7.1" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <emulab:vnode name="pcvm3-19" hardware_type="pcvm" disk_image="emulab-ops/UBUNTU18-64-STD:0"/>
+    <host name="node-5.mini-project-muz.ch-geni-net.instageni.rnet.missouri.edu"/>
+  </node>
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="node-6" component_manager_id="urn:publicid:IDN+instageni.rnet.missouri.edu+authority+cm" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+node+pc3" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64266" exclusive="false">
+    <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://portal.geni.net/images/VM-noTxt-centered.svg"/>
+    <sliver_type name="default-vm"/>
+    <services>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26616" username="xiansong"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26616" username="muz"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26616" username="zhangzs"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26616" username="matta"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26616" username="cyzhou"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26616" username="fahadf"/>
+      <emulab:console server="pc3.instageni.rnet.missouri.edu"/>
+      <emulab:imageable available="true"/>
+    </services>
+    <interface client_id="interface-6" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64281" mac_address="02893ccf278c">
+      <ip address="10.10.4.1" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <emulab:vnode name="pcvm3-32" hardware_type="pcvm" disk_image="emulab-ops/UBUNTU18-64-STD:0"/>
+    <host name="node-6.mini-project-muz.ch-geni-net.instageni.rnet.missouri.edu"/>
+  </node>
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="node-7" component_manager_id="urn:publicid:IDN+instageni.rnet.missouri.edu+authority+cm" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+node+pc3" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64267" exclusive="false">
+    <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://portal.geni.net/images/VM-noTxt-centered.svg"/>
+    <sliver_type name="default-vm"/>
+    <services>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26617" username="xiansong"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26617" username="muz"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26617" username="zhangzs"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26617" username="matta"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26617" username="cyzhou"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26617" username="fahadf"/>
+      <emulab:console server="pc3.instageni.rnet.missouri.edu"/>
+      <emulab:imageable available="true"/>
+    </services>
+    <interface client_id="interface-16" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64296" mac_address="02f3ee422c0b">
+      <ip address="10.10.9.1" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <emulab:vnode name="pcvm3-33" hardware_type="pcvm" disk_image="emulab-ops/UBUNTU18-64-STD:0"/>
+    <host name="node-7.mini-project-muz.ch-geni-net.instageni.rnet.missouri.edu"/>
+  </node>
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="node-8" component_manager_id="urn:publicid:IDN+instageni.rnet.missouri.edu+authority+cm" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+node+pc3" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64268" exclusive="false">
+    <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://portal.geni.net/images/VM-noTxt-centered.svg"/>
+    <sliver_type name="default-vm"/>
+    <services>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26618" username="xiansong"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26618" username="muz"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26618" username="zhangzs"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26618" username="matta"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26618" username="cyzhou"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26618" username="fahadf"/>
+      <emulab:console server="pc3.instageni.rnet.missouri.edu"/>
+      <emulab:imageable available="true"/>
+    </services>
+    <interface client_id="interface-8" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64284" mac_address="02763746994e">
+      <ip address="10.10.5.1" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <emulab:vnode name="pcvm3-34" hardware_type="pcvm" disk_image="emulab-ops/UBUNTU18-64-STD:0"/>
+    <host name="node-8.mini-project-muz.ch-geni-net.instageni.rnet.missouri.edu"/>
+  </node>
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="node-9" component_manager_id="urn:publicid:IDN+instageni.rnet.missouri.edu+authority+cm" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+node+pc3" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64269" exclusive="false">
+    <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://portal.geni.net/images/VM-noTxt-centered.svg"/>
+    <sliver_type name="default-vm"/>
+    <services>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26619" username="xiansong"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26619" username="muz"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26619" username="zhangzs"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26619" username="matta"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26619" username="cyzhou"/>
+      <login authentication="ssh-keys" hostname="pc3.instageni.rnet.missouri.edu" port="26619" username="fahadf"/>
+      <emulab:console server="pc3.instageni.rnet.missouri.edu"/>
+      <emulab:imageable available="true"/>
+    </services>
+    <interface client_id="interface-10" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64287" mac_address="022bc2701b83">
+      <ip address="10.10.6.1" type="ipv4" netmask="255.255.255.0"/>
+    </interface>
+    <emulab:vnode name="pcvm3-35" hardware_type="pcvm" disk_image="emulab-ops/UBUNTU18-64-STD:0"/>
+    <host name="node-9.mini-project-muz.ch-geni-net.instageni.rnet.missouri.edu"/>
+  </node>
+  <link client_id="link-0" sliver_id="urn:publicid:IDN+instageni.maxgigapop.net+sliver+66594">
+    <interface_ref client_id="interface-0" component_id="urn:publicid:IDN+instageni.maxgigapop.net+interface+pc5:lo0" sliver_id="urn:publicid:IDN+instageni.maxgigapop.net+sliver+66595"/>
+    <interface_ref client_id="interface-1" component_id="urn:publicid:IDN+instageni.maxgigapop.net+interface+pc5:lo0" sliver_id="urn:publicid:IDN+instageni.maxgigapop.net+sliver+66596"/>
+    <component_manager name="urn:publicid:IDN+instageni.maxgigapop.net+authority+cm"/>
+  </link>
+  <link client_id="link-0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64271">
+    <interface_ref client_id="interface-0" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64272"/>
+    <interface_ref client_id="interface-1" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64273"/>
+    <component_manager name="urn:publicid:IDN+instageni.rnet.missouri.edu+authority+cm"/>
+  </link>
+  <link client_id="link-1" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64274">
+    <interface_ref client_id="interface-2" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64275"/>
+    <interface_ref client_id="interface-3" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64276"/>
+    <component_manager name="urn:publicid:IDN+instageni.rnet.missouri.edu+authority+cm"/>
+  </link>
+  <link client_id="link-2" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64277">
+    <interface_ref client_id="interface-4" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64278"/>
+    <interface_ref client_id="interface-5" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64279"/>
+    <component_manager name="urn:publicid:IDN+instageni.rnet.missouri.edu+authority+cm"/>
+  </link>
+  <link client_id="link-3" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64280">
+    <interface_ref client_id="interface-6" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64281"/>
+    <interface_ref client_id="interface-7" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64282"/>
+    <component_manager name="urn:publicid:IDN+instageni.rnet.missouri.edu+authority+cm"/>
+  </link>
+  <link client_id="link-4" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64283">
+    <interface_ref client_id="interface-8" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64284"/>
+    <interface_ref client_id="interface-9" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64285"/>
+    <component_manager name="urn:publicid:IDN+instageni.rnet.missouri.edu+authority+cm"/>
+  </link>
+  <link client_id="link-5" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64286">
+    <interface_ref client_id="interface-10" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64287"/>
+    <interface_ref client_id="interface-11" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64288"/>
+    <component_manager name="urn:publicid:IDN+instageni.rnet.missouri.edu+authority+cm"/>
+  </link>
+  <link client_id="link-6" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64289">
+    <interface_ref client_id="interface-12" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64290"/>
+    <interface_ref client_id="interface-13" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64291"/>
+    <component_manager name="urn:publicid:IDN+instageni.rnet.missouri.edu+authority+cm"/>
+  </link>
+  <link client_id="link-7" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64292">
+    <interface_ref client_id="interface-14" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64293"/>
+    <interface_ref client_id="interface-15" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64294"/>
+    <component_manager name="urn:publicid:IDN+instageni.rnet.missouri.edu+authority+cm"/>
+  </link>
+  <link client_id="link-8" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64295">
+    <interface_ref client_id="interface-16" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64296"/>
+    <interface_ref client_id="interface-17" component_id="urn:publicid:IDN+instageni.rnet.missouri.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.rnet.missouri.edu+sliver+64297"/>
+    <component_manager name="urn:publicid:IDN+instageni.rnet.missouri.edu+authority+cm"/>
+  </link>
+  <rs:site_info xmlns:rs="http://www.protogeni.net/resources/rspec/ext/site-info/1">
+    <rs:location country="" latitude="38.946767" longitude="-92.331461"/>
+  </rs:site_info>
+</rspec>
