@@ -1,3 +1,7 @@
+Install Instructions:
+Please Install the cache using rsppec and then place the configuration files in /opt/ats/etc/trafficserver/ directory for quich Forward proxy setup. The Tested configuyrations are given in the bottom of this file.
+
+
 Web Caching
 
 Muzammil Hussain,
@@ -84,3 +88,37 @@ In this project I implemented a web-cache that caches objects when they are requ
 Division of Labor:
 
 Muzammil Hussain: I did everything alone. All the proxy set up measurement scripts and the entire writeup. Please Email other two people and ask them what they did. I will be okay if you will mark them based on this report and project. But I would like to be evaluated alone. I would request you to be lenient with other team members because these are stressful times but I cannot afford to lose marks just because they did not contribute, as I spent so much time dealing with all the issues alone and doing everything without any support in the middle of all my other projects and assignment. 
+
+
+
+Tested Configuration Variables while figuring out the slowness of the cache server and for measuremnts:
+CONFIG proxy.config.url_remap.remap_required INT 0
+CONFIG proxy.config.reverse_proxy.enabled INT 0
+dest_domain=example.com suffix=js action=never-cache
+dest_domain=example.com ttl-in-cache=1d
+proxy.config.exec_thread.limit
+proxy.config.accept_threads
+proxy.config.restart.active_client_threshold
+proxy.config.net.connections_throttle
+proxy.config.net.max_connections_in
+proxy.config.net.max_requests_in
+proxy.config.net.throttle_delay
+proxy.config.http.flow_control.enabled
+proxy.config.http.websocket.max_number_of_connections
+proxy.config.cache.enable_read_while_writer
+proxy.config.http.cache.http
+proxy.config.http.cache.ignore_client_no_cache
+proxy.config.http.cache.ignore_server_no_cache
+proxy.config.http.cache.required_headers
+proxy.config.http.cache.guaranteed_min_lifetime
+proxy.config.http.cache.guaranteed_max_lifetime
+proxy.config.http.cache.ignore_client_cc_max_age
+proxy.config.cache.min_average_object_size
+proxy.config.cache.permit.pinning
+proxy.config.cache.ram_cache.size
+proxy.config.cache.ram_cache_cutoff
+proxy.config.cache.ram_cache.algorithm
+proxy.config.http.cache.heuristic_min_lifetime
+proxy.config.body_factory.enable_logging
+
+
